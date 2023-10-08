@@ -1,28 +1,49 @@
+import { useState } from 'react';
 import { useContext } from 'react';
 import { FaGoogle } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider';
 
 
 const Login = () => {
-    const {googleLogin,signin}=useContext(AuthContext)  
+   
+    const [error, setError]=useState(null)
+    const { googleLogin, signin } = useContext(AuthContext)
+    const location = useLocation()
+    const navigate = useNavigate()
+    console.log('login', location)
     // google log in
-    const handleSocialLogin = (media) =>{
-           media()
-           .then(res=>console.log(res))
-           .catch(error=>console.log(error))
+    const handleSocialLogin = (media) => {
+        media()
+            .then(res => {
+                console.log(res)
+                navigate(location?.state ? location.state : '/')
+            })
+            .catch(error => console.log(error))
     }
 
+
+
+   
+   
     // email password log in
 
-    
-    const handleLogin = (e) =>{
+
+    const handleLogin = (e) => {
         e.preventDefault();
         const email = e.target.email.value;
         const password = e.target.password.value;
-        signin(email,password)
-        .then(res=>console.log(res.user))
-        .catch(error => console.log(error))
+        signin(email, password)
+            .then(res => {
+                console.log(res.user);
+                
+                navigate(location?.state ? location.state : '/')
+                
+            })
+            .catch(error => {
+                console.log(error)
+                setError(error)
+            })
     }
 
     return (
@@ -51,12 +72,18 @@ const Login = () => {
                                     <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                                 </label>
                             </div>
+                            
                             <div className="form-control mt-6 ">
                                 <button type="submit" className="btn btn-primary">Login</button>
                             </div>
+                            {
+                                error && <p className='text-red-600'>Email and Password do not match</p>
+                            }
                             <div className='mt-6'>
-                                 <button className='btn '  onClick={() => handleSocialLogin(googleLogin)}>Log in with<FaGoogle></FaGoogle></button>
+                                <button className='btn ' onClick={() => handleSocialLogin(googleLogin)}>Log in with<FaGoogle></FaGoogle></button>
                             </div>
+                            
+                           
                             <p className='mt-4'>Your do not have an account <Link to='/register' className='text-red-500 font-bold'>Register Now</Link></p>
 
                         </form>

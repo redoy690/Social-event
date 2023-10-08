@@ -18,9 +18,13 @@ const Service = ({ service }) => {
                     </div>
                     <div className='flex mt-8 justify-between'>
                         <h2 className='text-start text-3xl text text-[#164ca7] border border-[#164ca7] px-3 pt-2 rounded-lg font-bold'>Price:{Price}$</h2>
-                        <button className="btn-shine">
-                            <Link to={`/services/${id}`}><span>Show Details</span></Link>
-                        </button>
+
+                        <Link to={`/services/${id}`}>
+                            <button className="btn-shine">
+                                <span>Show Details</span>
+                            </button>
+                        </Link>
+
                     </div>
                 </div>
             </div>

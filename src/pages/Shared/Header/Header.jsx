@@ -16,30 +16,16 @@ const Header = () => {
                 Home
             </NavLink>
         </li>
-        <li className='mx-2 bg-[#FFBB00] rounded-lg text-white font-semibold border hover:text-[#FFBB00] mt-1 hover:bg-white button_trans'>
-            <NavLink to="/others" className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
-            }
-            >
-                bari
-            </NavLink>
-        </li>
-        <li className='mx-2 bg-[#FFBB00] rounded-lg text-white font-semibold border hover:text-[#FFBB00] mt-1 hover:bg-white button_trans'>
-            <NavLink to="/ghor" className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
-            }
-            >
-                Home
-            </NavLink>
-        </li>
+        
+       
         <li className='mx-2 bg-[#FFBB00] rounded-lg text-white font-semibold border hover:text-[#FFBB00] mt-1 hover:bg-white button_trans'>
             {
                 user ?
-                    <NavLink to="/" className={({ isActive, isPending }) =>
+                    <NavLink to="/contactus" className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
                     }
                     >
-                        Private
+                        Contact Us
                     </NavLink>
                     :
                     <NavLink to="/login" className={({ isActive, isPending }) =>
@@ -53,11 +39,11 @@ const Header = () => {
         <li className='mx-2 bg-[#FFBB00] rounded-lg text-white font-semibold border hover:text-[#FFBB00] mt-1 hover:bg-white button_trans'>
             {
                 user ?
-                    <NavLink to="/" className={({ isActive, isPending }) =>
+                    <NavLink to="/eventlist" className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
                     }
                     >
-                        Private 2
+                        Event List
                     </NavLink>
                     :
                     <NavLink to="/register" className={({ isActive, isPending }) =>
