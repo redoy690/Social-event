@@ -1,0 +1,55 @@
+[
+    {
+        "id": "1",
+        "Picture_small": "https://i.ibb.co/r4LZ9Z3/beautiful-woman-long-red-dress-walks-around-city-with-her-husband.jpg",
+        "Picture_big": "https://i.ibb.co/kDtTcf4/Screenshot-12.png",
+        "Title": "Weddings Event",
+        "Category": "Health",
+        "Description": "A wedding planner is a professional who assists with the design, planning and management of a clients wedding. Weddings are significant events in peoples lives and such, couples are often willing to spend considerable amount of money ensure that their weddings are well-organized. Weddingplanners are often used by couples who work long hours and have little spare time available for sourcing and managing wedding venues and wedding suppliers. Professional wedding planners are based worldwide but the industry is the largest in the USA, India, Western Europe, and China. ",
+        "Price": "100"
+    },
+    {
+        "id": "2",
+        "Picture_small": "https://i.ibb.co/0htyKkC/hurry-up-make-wish-group-happy-people-celebrating-birthday-among-friends-smiling-425904-9348.jpg",
+        "Picture_big": "https://i.ibb.co/k0r70xc/2.png",
+        "Title": "Birthday Parties Event",
+        "Category": "Education",
+        "Description": "The Birthday Event Management firms are organizing the events with latest ideas for Birthday Parties. There are various numbers of skilled and knowledgeable organizers they successfully plan and produce your birthday with lots of fun making ideas and organize great and memorable event according to your needs and requirements. You would definitely love the way of our organization managing the birthday event. Birthday Event Management managing everything in a systematic way with proper time scheduling for celebration and meal of birthday parties. ",
+        "Price": "110"
+    },
+    {
+        "id": "3",
+        "Picture_small": "https://i.ibb.co/h7J5w88/happy-anniversary-with-gold-color-ribbon-8188-243.jpg",
+        "Picture_big": "https://i.ibb.co/935krDt/3.png",
+        "Title": "Anniversaries Event",
+        "Description": "Wedding anniversaries are one of the special times to celebrate the love, companionship and commitment shared between two individuals. To make your anniversary truly special, it's essential to think differently and come up with innovative ideas that will create lasting memories. In this blog, we will explore unique ways to celebrate wedding anniversaries while incorporating the expertise of surprise anniversary event organizers and anniversary party planning professionals. Get ready to get a glance at the journey of creativity and romance!",
+        "Price": "120"
+    },
+    {
+        "id": "4",
+        "Picture_small": "https://i.ibb.co/qyBnmNm/groom-putting-ring-bride-s-finger.jpg",
+        "Picture_big": "https://i.ibb.co/ZTtYDMP/44.png",
+        "Title": "Engagement Parties Event",
+        "Category": "Food",
+        "Description": "The engagement party is one of the most exciting and memorable events of all the pre-wedding festivities. It's the perfect opportunity to celebrate the start of a new journey with your loved ones. However, planning an engagement party can be overwhelming, especially if you need prior experience. That's why we've compiled a list of dos and don'ts to help you plan a successful engagement party. Set a budget: Before you start planning, decide on a budget. This will help you determine the guest list, venue, and other details.",
+        "Price": "130"
+    },
+    {
+        "id": "5",
+        "Picture_small": "https://i.ibb.co/zGY4hCq/evening-by-seaside-1.jpg",
+        "Picture_big": "https://i.ibb.co/4P2TdLM/5.png",
+        "Title": "Retirement Parties Event",
+        "Category": "Food",
+        "Description": "A retirement party is a special gathering held in honor of someone who is retiring from their professional career. It's an occasion to express gratitude for their years of hard work, celebrate their achievements, and send them off into retirement with warm wishes and good cheer. Retirement parties can vary in size and style, from intimate family gatherings to grand events with coworkers, friends, and extended family.Retirement is a significant milestone in one's life, marking the end of a long and successful career. It's a time to celebrate the retiree's accomplishments, share fond memories, and wish them well on their new journey.",
+        "Price": "140"
+    },
+    {
+        "id": "6",
+        "Picture_small": "https://i.ibb.co/7yZyg1K/8683985-1.jpg",
+        "Picture_big": "https://i.ibb.co/ft4GjpZ/6.png",
+        "Title": "Baby Shower Event",
+        "Category": "Clothing",
+        "Description": "If youve offered to host a baby shower, you may be wondering how to plan a baby shower and even searching for a baby shower checklist. We've prepared both a guide and a checklist to steer your through the planning process, ensuring you dont overlook any of the numerous details. These tools can help you throw a shower that runs so smoothly that even you, the host, can relax and enjoy it! From when and where to have a baby shower to details like baby shower decorations and venues, our guide and checklist have it all.",
+        "Price": "150"
+    }
+]
