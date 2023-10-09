@@ -1,9 +1,7 @@
-import React from 'react';
-import { useState } from 'react';
 
+import { useState } from 'react';
 import { useContext } from 'react';
-import toast from 'react-hot-toast';
-import { Link, Navigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider';
 
 const Register = () => {
@@ -14,8 +12,7 @@ const Register = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const name = e.target.name.value;
-        const photo = e.target.photo.value;
+        
         const email = e.target.email.value;
         const password = e.target.password.value;
         

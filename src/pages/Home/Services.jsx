@@ -1,5 +1,5 @@
 import Service from "./Service";
-
+import PropTypes from 'prop-types';
 
 const Services = ({ data }) => {
     return (
@@ -18,4 +18,9 @@ const Services = ({ data }) => {
     );
 };
 
+
+Services.propTypes = {
+    data:PropTypes.object.isRequired,
+
+}
 export default Services;

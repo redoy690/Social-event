@@ -16,8 +16,8 @@ const Header = () => {
                 Home
             </NavLink>
         </li>
-        
-       
+
+
         <li className='mx-2 bg-[#FFBB00] rounded-lg text-white font-semibold border hover:text-[#FFBB00] mt-1 hover:bg-white button_trans'>
             {
                 user ?
@@ -80,13 +80,16 @@ const Header = () => {
                 <div className="navbar-end mr-4">
                     {
                         user ?
-                            <Link to='/'><a onClick={logOut} className="btn bg-[#FFBB00] text-white font-bold  rounded-xl">LogOut</a> </Link> 
+                            <div className="flex  space-x-4">
+                                <div className="w-[50px] ">
+                                    <img className="rounded-full" src={user.photoURL} alt="" />
+                                </div>
+                                <Link to='/'><a onClick={logOut} className="btn bg-[#FFBB00] text-white font-bold  rounded-xl">LogOut</a> </Link>
+                            </div>
                             :
                             <div>
                                 <Link to='/login'><a className="btn bg-[#FFBB00] text-white font-bold  rounded-xl">Log In</a> </Link>
                             </div>
-
-
                     }
 
                 </div>

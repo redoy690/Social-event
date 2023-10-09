@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './OurClint.css'
 
 const OurClint = () => {

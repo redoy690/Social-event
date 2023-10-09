@@ -16,11 +16,12 @@ console.log(greetign);
 - C: `undefined`
 
 <details><summary><b>Answer: A</b></summary>
+
 <p>
 
-#### Answer: 
+#### Answer: A
 
-<i>Java Script give empty object, In this case at first we take (greetign) a empty object. then console it. The output we get empty object. Because the object do not have any element. If any obejct do not have any element the obejct called by empty obejct. So the out put is empty object </i>
+<i>Explanation: Java Script give empty object, In this case at first we take (greetign) a empty object. then console it. The output we get empty object. Because the object do not have any element. If any obejct do not have any element the obejct called by empty obejct. So the out put is empty object </i>
 
 </p>
 </details>
@@ -41,11 +42,12 @@ sum(1, "2");
 - D: `3`
 
 <details><summary><b>Answer: C</b></summary>
+
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>The output is 12. The function have 2 paremater. The first paremater type is number. But the second paremater type is String.  Javascript give output Side by side. If 2 paremater are number javascript plus those parameter and give total sum output. </i>
+<i>Explanation: The output is 12. The function have 2 paremater. The first paremater type is number. But the second paremater type is String.  Javascript give output Side by side. If 2 paremater are number javascript plus those parameter and give total sum output. </i>
 
 </p>
 </details>
@@ -67,11 +69,12 @@ console.log(food);
 - D: `ReferenceError`
 
 <details><summary><b>Answer:A</b></summary>
+
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>In this Case the out put is number A. Here Food array have 4 element, then info object select Food array first element, then infor.favoriteFood change Food first element. So Info have new element, but Food object unchanged. If here you console info, you get new element. But food element is unchangeable</i>
+<i>Explanation: In this Case the out put is number A. Here Food array have 4 element, then info object select Food array first element, then infor.favoriteFood change Food first element. So Info have new element, but Food object unchanged. If here you console info, you get new element. But food element is unchangeable</i>
 
 </p>
 </details>
@@ -92,11 +95,12 @@ console.log(sayHi());
 - D: `ReferenceError`
 
 <details><summary><b>Answer:B</b></summary>
+
 <p>
 
 #### Answer: ?
 
-<i>Here the Correct answer is number B. Because in this function name is not called any where. In javascript if we called any paremater or variable who is not available , then we get undefined.</i>
+<i>Explanation: Here the Correct answer is number B. Because in this function name is not called any where. In javascript if we called any paremater or variable who is not available , then we get undefined.</i>
 
 </p>
 </details>
@@ -120,11 +124,12 @@ console.log(count);
 - D: 4
 
 <details><summary><b>Answer:C</b></summary>
+
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Here the correct answer is number C. Here the for each function will start 4 times. But in javascript we start count from 0. So in this case the function play 4 times. but it count 0,1,2,3. So the out put is C</i>
+<i>Explanation: Here the correct answer is number C. Here the for each function will start 4 times. But in javascript we start count from 0. So in this case the function play 4 times. but it count 0,1,2,3. So the Result is: C (3)</i>
 
 </p>
 </details>
