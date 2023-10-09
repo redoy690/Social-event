@@ -1,0 +1,38 @@
+
+
+.clint_card:hover {
+    background-color: #f8f8f8;
+    border:1px solid black
+    
+}
+
+.clint_card{
+    padding-top:10px ;
+    transition:  1s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -33,7 +33,7 @@ const Team = () => {
                         
                     </div>
                 </div>
-                <div className="bg-base-100 shadow-xl border border-red-200 " data-aos="zoom-out-left">
+                <div className="bg-base-100 shadow-xl border border-red-200 " data-aos="zoom-out-right">
                     <img src={'https://i.ibb.co/fCJfcHP/3.png'} className="w-[100%]" alt="Shoes" />
                     <div className="card-body">
                         <h2 className="card-title text-2xl">

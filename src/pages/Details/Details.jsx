@@ -12,7 +12,7 @@ const Details = () => {
         const dataFind = allData.find(data => data.id === id)
         setData(dataFind)
     }, [id, allData])
-    const { Picture_small, Title, Price, Description } = data
+    const { Picture_small, Title, Price, Description,Picture1,Picture2 } = data
     return (
         <div className='mt-4'>
             <h4 className="text-center text-4xl text-[#FFBB00] rounded-b-xl font-bold mb-3 bg-slate-400 border border-[#FF6F33] py-6">{Title}</h4>
@@ -23,7 +23,7 @@ const Details = () => {
             <h4 className="text-center text-4xl mt-10 text-[#FFBB00] rounded-xl font-bold mb-3 bg-slate-400 border border-[#FF6F33] py-6">ORDER NOW</h4>
             <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mt-4 gap-6'>
                 <div className='h-full'>
-                    <img className='h-full rounded-xl border-4 border-yellow-500' src={'https://i.ibb.co/vmjVs70/81w-Rs-Que5-ZL-AC-UF1000-1000-QL80.jpg'} alt="" />
+                    <img className='h-full rounded-xl border-4 border-yellow-500' src={Picture1} alt="" />
 
                 </div>
                 <div>
@@ -68,7 +68,7 @@ const Details = () => {
                         <h2 className='text-center text-4xl font-bold text-white border-4 rounded-xl py-2 mt-3 mx-6'>PAYMENT INFORMATION</h2>
                         <div className=''>
                             <div className='flex px-7 mt-4 gap-4'>
-                                <img className='w-[30%]' src={'https://i.ibb.co/Snvm9Gr/81pzq-Ow1r-FL-AC-SL1100.jpg'} alt="" />
+                                <img className='w-[30%]' src={Picture2} alt="" />
                                 <div>
                                     <div className='flex justify-between'>
                                         <h2 className='text-xl mr-8'>{Title} =</h2>
@@ -119,7 +119,7 @@ const Details = () => {
                     </div>
                 </div>
                 <div className='h-full'>
-                    <img className='h-full rounded-xl border-4 border-yellow-500' src={'https://i.ibb.co/Snvm9Gr/81pzq-Ow1r-FL-AC-SL1100.jpg'} alt="" />
+                    <img className='h-full rounded-xl border-4 border-yellow-500' src={Picture2} alt="" />
 
                 </div>
             </div>
