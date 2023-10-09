@@ -1,6 +1,7 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import './Service.css'
+import PropTypes from 'prop-types';
 
 const Service = ({ service }) => {
     const { id, Picture_small, Title, Description, Price } = service
@@ -28,19 +29,12 @@ const Service = ({ service }) => {
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
         </div>
     );
 };
 
+Service.propTypes = {
+    service:PropTypes.object.isRequired,
+
+}
 export default Service;

@@ -3,6 +3,7 @@ import { createBrowserRouter, } from "react-router-dom";
 import Root from "../layouts/Root";
 import ContactUs from "../pages/ContactUs/ContactUs";
 import Details from "../pages/Details/Details";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import EventList from "../pages/EventList/EventList";
 import Home from "../pages/Home/Home";
 import Login from "../pages/Login/Login";
@@ -13,6 +14,7 @@ const routes = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',

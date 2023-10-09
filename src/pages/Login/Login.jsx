@@ -50,11 +50,11 @@ const Login = () => {
         <div>
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <div className="text-center lg:text-left w-1/2">
+                    <div className="text-center lg:text-left lg:w-1/2">
 
                         <img src={'https://i.ibb.co/0htyKkC/hurry-up-make-wish-group-happy-people-celebrating-birthday-among-friends-smiling-425904-9348.jpg'} alt="" />
                     </div>
-                    <div className="card flex-shrink-0 w-1/2 max-w-md shadow-2xl bg-base-100">
+                    <div className="card flex-shrink-0 lg:w-1/2 max-w-md shadow-2xl bg-base-100">
                         <h1 className="text-5xl text-center font-bold">LogIn now!</h1>
                         <form onSubmit={handleLogin} className="card-body">
                             <div className="form-control">

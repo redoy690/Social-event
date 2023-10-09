@@ -18,6 +18,7 @@ const Register = () => {
         const photo = e.target.photo.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
+        
 
         setRegisterError('')
         setSuccess('')
@@ -36,21 +37,25 @@ const Register = () => {
             .then(res => {
                 console.log(res.user)
                 setSuccess('Your registration is complete')
+                
             })
             .catch(error => {
                 console.log(error)
                 setRegisterError(error.message)
             })
+
+            
     }
+   
     return (
         <div>
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <div className="text-center lg:text-left w-1/2">
+                    <div className="text-center lg:text-left lg:w-1/2">
 
                         <img src={'https://i.ibb.co/r4LZ9Z3/beautiful-woman-long-red-dress-walks-around-city-with-her-husband.jpg'} alt="" />
                     </div>
-                    <div className="card flex-shrink-0 w-1/2 max-w-md shadow-2xl bg-base-100">
+                    <div className="card flex-shrink-0 lg:w-1/2 shadow-2xl bg-base-100">
                         <h1 className="text-5xl text-center font-bold">Register now!</h1>
                         <form onSubmit={handleSubmit} className="card-body">
                             <div className="form-control">

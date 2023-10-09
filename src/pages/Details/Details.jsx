@@ -21,12 +21,12 @@ const Details = () => {
                 {Description}
             </p>
             <h4 className="text-center text-4xl mt-10 text-[#FFBB00] rounded-xl font-bold mb-3 bg-slate-400 border border-[#FF6F33] py-6">ORDER NOW</h4>
-            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mt-4 gap-6'>
+            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mt-8 gap-6'>
                 <div className='h-full'>
                     <img className='h-full rounded-xl border-4 border-yellow-500' src={Picture1} alt="" />
 
                 </div>
-                <div>
+                <div className='border-4 border-yellow-500 rounded-2xl'>
                     <div className="card  shadow-2xl bg-base-100 ">
                         <h2 className='text-center text-4xl font-bold text-white border-4 rounded-xl py-2 mt-3 mx-6'>EVENT INFORMATION</h2>
                         <form className="card-body">
@@ -62,9 +62,9 @@ const Details = () => {
                 </div>
             </div>
             <h4 className=" mt-10 text-center text-4xl text-[#FFBB00] rounded-xl font-bold mb-3 bg-slate-400 border border-[#FF6F33] py-6">COMPELTE PAYMENT</h4>
-            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mt-2 gap-6'>
-                <div>
-                    <div className="card   shadow-2xl bg-base-100 ">
+            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mt-6 gap-6'>
+                <div className='border-4 border-yellow-500 rounded-2xl'>
+                    <div className="card   shadow-2xl bg-base-100  ">
                         <h2 className='text-center text-4xl font-bold text-white border-4 rounded-xl py-2 mt-3 mx-6'>PAYMENT INFORMATION</h2>
                         <div className=''>
                             <div className='flex px-7 mt-4 gap-4'>
@@ -88,33 +88,33 @@ const Details = () => {
                         </div>
                         <div className=''>
                             <img className='mx-auto mt-4 w-[70%]' src={'https://i.ibb.co/Fw13mFv/928-9280025-follow-us-payment-footer.png'} alt="" />
-                            <div>
+                            <div className='px-4'>
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text">Full Name</span>
+                                        <span className="label-text">Account Name</span>
                                     </label>
                                     <input type="email" placeholder="John Linkon" className="input input-bordered" required />
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text">Full Name</span>
+                                        <span className="label-text">Account Number</span>
                                     </label>
-                                    <input type="email" placeholder="John Linkon" className="input input-bordered" required />
+                                    <input type="number" placeholder="1254822-42558-44" className="input input-bordered" required />
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text">Full Name</span>
+                                        <span className="label-text">Exp Date</span>
                                     </label>
-                                    <input type="email" placeholder="John Linkon" className="input input-bordered" required />
+                                    <input type="Number" placeholder="4-25-27" className="input input-bordered" required />
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text">Full Name</span>
+                                        <span className="label-text">Four Digit</span>
                                     </label>
-                                    <input type="email" placeholder="John Linkon" className="input input-bordered" required />
+                                    <input type="Number" placeholder="1234" className="input input-bordered" required />
                                 </div>
                             </div>
-                            <button className='mt-6'>Complete Payment</button>
+                            <button className='mt-6 ml-4'>Complete Payment</button>
                         </div>
                     </div>
                 </div>
